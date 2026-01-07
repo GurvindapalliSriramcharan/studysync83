@@ -92,7 +92,11 @@ def verify_firebase_token(f):
 
 app = Flask(__name__)
 # Allow CORS from Netlify frontend
-CORS(app, origins=["https://studysync83.netlify.app"])
+    # Allow CORS from Netlify and localhost for dev
+CORS(app, origins=[
+    "https://studysync83.netlify.app",
+    "http://localhost:3000"
+])
 
 # Initialize Firebase on app startup
 initialize_firebase()
