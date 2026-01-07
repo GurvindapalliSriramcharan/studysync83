@@ -193,7 +193,7 @@ async function initQuiz() {
   
   try {
     // Fetch quiz questions from backend API
-    const res = await fetch("https://studysync-1-zgdy.onrender.com/get-quiz", {
+    const res = await fetch("https://studysync83.onrender.com/get-quiz", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ units: [currentUnit] })
