@@ -1,13 +1,13 @@
-// Temporarily comment out Firebase imports to test if they're blocking script execution
+// Firebase imports
 /*********************************
  FIREBASE AUTH IMPORTS
 *********************************/
-// import { auth } from "./firebase.js";
-// import {
-//   createUserWithEmailAndPassword,
-//   signInWithEmailAndPassword,
-//   onAuthStateChanged
-// } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { auth } from "./firebase.js";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 /*********************************
  NAVIGATION
