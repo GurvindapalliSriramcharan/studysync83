@@ -1,12 +1,13 @@
+// Temporarily comment out Firebase imports to test if they're blocking script execution
 /*********************************
  FIREBASE AUTH IMPORTS
 *********************************/
-import { auth } from "./firebase.js";
-import {
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword,
-  onAuthStateChanged
-} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+// import { auth } from "./firebase.js";
+// import {
+//   createUserWithEmailAndPassword,
+//   signInWithEmailAndPassword,
+//   onAuthStateChanged
+// } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 /*********************************
  NAVIGATION
@@ -193,13 +194,16 @@ async function initQuiz() {
   
   try {
     // Fetch quiz questions from backend API
-    const res = await fetch("https://studysync83.onrender.com/", {
+    console.log("Fetching quiz for unit:", currentUnit);
+    const res = await fetch("https://studysync83.onrender.com/get-quiz", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ units: [currentUnit] })
     });
-    if (!res.ok) throw new Error("Failed to load unit " + currentUnit);
+    console.log("Response status:", res.status);
+    if (!res.ok) throw new Error("Failed to load unit " + currentUnit + " - Status: " + res.status);
     const data = await res.json();
+    console.log("Received data:", data);
     const questions = data.quiz && data.quiz["unit_" + currentUnit] ? data.quiz["unit_" + currentUnit] : [];
     // Shuffle and pick 5 random questions (if not already 5)
     const shuffled = shuffleArray([...questions]);
@@ -207,8 +211,8 @@ async function initQuiz() {
     // Tag with unit info
     quizQuestions.forEach(q => q.unitNum = currentUnit);
   } catch (err) {
-    console.error(err);
-    document.getElementById("questionText").textContent = "Failed to load questions for Unit " + currentUnit;
+    console.error("Fetch error:", err);
+    document.getElementById("questionText").textContent = "Failed to load questions for Unit " + currentUnit + " - " + err.message;
     return;
   }
 
