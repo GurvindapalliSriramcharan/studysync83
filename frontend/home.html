@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo-section">
+    <div class="logo">📝</div>
+    <div class="app-name">StudySync</div>
+  </div>
+  
+  <div class="menu-container">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu-dropdown" id="menuDropdown">
+      <div class="menu-header">📊 My Progress</div>
+      <div class="menu-item" onclick="goToAnalysis()">📈 Previous Quiz Results</div>
+      <div class="menu-item" onclick="goTimetable()">📅 My Timetables</div>
+      <div class="menu-divider"></div>
+      <div class="menu-header">📖 Study Materials</div>
+      <div class="menu-item" onclick="goImportant()">📋 Important Questions</div>
+      <div class="menu-item" onclick="goNotes()">📝 Study Notes</div>
+      <div class="menu-item" onclick="goResources()">🎥 Video Resources</div>
+      <div class="menu-divider"></div>
+      <div class="menu-item" onclick="goUpload()">🚀 Start New Quiz</div>
+    </div>
+  </div>
+</div>
+
+<div class="hero">
+  <h1>
+    Master Your Exams with <br>
+    <span class="highlight">Smart Learning</span>
+  </h1>
+
+  <p class="subtitle">
+    Upload your syllabus, take AI quizzes, track performance, and get a
+    personalized study timetable based on your learning pace.
+  </p>
+
+  <button onclick="goUpload()">Start Learning →</button>
+</div>
+
+<script type="module" src="script.js"></script>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("menuDropdown");
+    menu.classList.toggle("show");
+  }
+
+  // Close menu when clicking outside
+  document.addEventListener("click", function(e) {
+    const menu = document.getElementById("menuDropdown");
+    const hamburger = document.querySelector(".hamburger");
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+      menu.classList.remove("show");
+    }
+  });
+</script>
+</body>
+</html>

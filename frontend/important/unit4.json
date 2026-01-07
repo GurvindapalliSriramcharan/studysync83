@@ -1,0 +1,96 @@
+{
+  "unit": "Unit 4: Transaction Management and Concurrency Control",
+  "topics": ["Transactions", "ACID Properties", "Serializability", "Locking", "Deadlock", "Recovery"],
+  "questions": [
+    {
+      "question": "What is a Transaction? Explain the ACID properties of transactions in detail.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain the different states of a Transaction with a state transition diagram.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "How is Atomicity and Durability implemented in a DBMS? Explain with examples.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Serializability? Explain Conflict Serializability and View Serializability.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are the problems of concurrent execution? Explain Lost Update, Dirty Read, and Unrepeatable Read.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is Recoverability? Explain Recoverable, Cascadeless, and Strict schedules.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain Lock-Based Protocols. What are Shared and Exclusive locks?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is Two-Phase Locking Protocol (2PL)? Explain Strict 2PL and Rigorous 2PL.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain Timestamp-Based Concurrency Control Protocol with an example.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Validation-Based (Optimistic) Concurrency Control? Explain its phases.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Medium"
+    },
+    {
+      "question": "What is Multiple Granularity Locking? Explain the lock hierarchy.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "Medium"
+    },
+    {
+      "question": "What is Deadlock? Explain deadlock prevention, detection, and recovery techniques.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain different types of failures in a database system. How are they handled?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Log-Based Recovery? Explain Undo and Redo operations.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Checkpoints? Explain their role in database recovery.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    }
+  ]
+}

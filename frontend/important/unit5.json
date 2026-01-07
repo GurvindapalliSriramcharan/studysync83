@@ -1,0 +1,96 @@
+{
+  "unit": "Unit 5: File Organization, Indexing, and Hashing",
+  "topics": ["File Organization", "Indexing", "B-Tree", "B+ Tree", "Hashing"],
+  "questions": [
+    {
+      "question": "Explain different methods of File Organization: Heap, Sequential, and Hashed file organization.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is a Data Dictionary? Explain its contents and importance in DBMS.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Indexing? Explain the advantages and disadvantages of indexing.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain Primary Index, Secondary Index, and Clustering Index with examples.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Dense and Sparse Indexes? Compare them with examples.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain B-Tree index structure. What are its properties? Illustrate with an example.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain B+ Tree index structure. How is it different from B-Tree? Give advantages.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Construct a B+ Tree of order 3 for the following keys: 5, 15, 25, 35, 45, 55, 65, 75.",
+      "type": "Practical",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain insertion and deletion operations in B+ Tree with examples.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Hashing? Explain Static Hashing with its advantages and disadvantages.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Hash Functions? What are the properties of a good hash function?",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain different collision resolution techniques in Hashing: Chaining and Open Addressing.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Dynamic Hashing? Explain Extendible Hashing with an example.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Compare Indexing and Hashing. When would you prefer one over the other?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain Linear Hashing technique with an example.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Medium"
+    }
+  ]
+}

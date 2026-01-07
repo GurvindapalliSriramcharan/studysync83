@@ -1,0 +1,78 @@
+{
+  "unit": "Unit 1: Introduction to Databases and DBMS",
+  "topics": ["Database Concepts", "DBMS Architecture", "ER Diagrams", "Database Design"],
+  "questions": [
+    {
+      "question": "What is a Database Management System (DBMS)? Explain its advantages over traditional file systems.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain the three-level architecture of DBMS (External, Conceptual, Internal) with a neat diagram.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are the different types of database users? Explain the role of Database Administrator (DBA).",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain the concepts of Data Independence. Differentiate between Logical and Physical Data Independence.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is an Entity-Relationship (ER) Model? Explain the basic components of ER diagrams with examples.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Define the following with examples: Entity, Attribute, Relationship, Primary Key, Foreign Key.",
+      "type": "Short Answer",
+      "marks": 5,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain different types of attributes in ER model: Simple, Composite, Derived, Multi-valued.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "What are the different types of relationships in ER model? Explain with cardinality constraints.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Draw an ER diagram for a University Database System with entities: Student, Course, Instructor, Department.",
+      "type": "Practical",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain the difference between DDL, DML, and DCL with examples.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "What is a weak entity? How is it represented in an ER diagram? Give an example.",
+      "type": "Medium Answer",
+      "marks": 5,
+      "frequency": "Medium"
+    },
+    {
+      "question": "Explain the process of converting an ER diagram to Relational Schema with an example.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    }
+  ]
+}

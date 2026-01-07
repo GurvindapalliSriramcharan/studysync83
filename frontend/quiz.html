@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo-section">
+    <div class="logo">📝</div>
+    <div class="app-name">StudySync</div>
+  </div>
+  <button class="home-btn" onclick="goHome()">🏠 Home</button>
+</div>
+
+<div class="quiz-card">
+  <h3 id="unitTitle">Unit Quiz</h3>
+  <p id="timer">⏱ 05:00</p>
+
+  <h4 id="questionText">Loading...</h4>
+  <div id="options"></div>
+
+  <button onclick="nextQuestion()">Next Question</button>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

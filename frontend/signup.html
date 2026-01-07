@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar auth-bar">
+  <div class="logo">📚</div>
+  <div class="app-name">StudySync</div>
+</div>
+
+<div class="login-wrapper">
+  <div class="login-card">
+    <h2>Sign Up</h2>
+    <input id="name" placeholder="Full Name">
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="signup()">Create Account</button>
+    <p class="signup-text">
+      Already have an account?
+      <span class="signup-link" onclick="goLogin()">Log In</span>
+    </p>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

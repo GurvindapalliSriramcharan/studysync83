@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Analysis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo-section">
+    <div class="logo">📝</div>
+    <div class="app-name">Performance Analysis</div>
+  </div>
+  <button class="home-btn" onclick="goHome()">🏠 Home</button>
+</div>
+
+<div class="page-container">
+  <h2>📈 Your Quiz Analysis</h2>
+
+  <div id="analysisContent"></div>
+
+  <div class="form-section">
+    <h3>📅 Exam Schedule</h3>
+    
+    <div class="input-group">
+      <label for="daysLeft">How many days left for your exam?</label>
+      <input type="number" id="daysLeft" min="1" max="365" placeholder="e.g., 7">
+    </div>
+
+    <div class="input-group">
+      <label for="hoursPerDay">How many hours can you study per day?</label>
+      <input type="number" id="hoursPerDay" min="1" max="12" placeholder="e.g., 4">
+    </div>
+  </div>
+
+  <div class="form-section">
+    <h3>🎯 Select Your Learning Speed</h3>
+
+    <div class="radio-group">
+      <label class="radio-option">
+        <input type="radio" name="speed" value="slow">
+        <span>🐢 Slow Learner (needs more revision)</span>
+      </label>
+      <label class="radio-option">
+        <input type="radio" name="speed" value="average">
+        <span>🚶 Average Learner</span>
+      </label>
+      <label class="radio-option">
+        <input type="radio" name="speed" value="fast">
+        <span>🚀 Fast Learner (quick grasp)</span>
+      </label>
+    </div>
+  </div>
+
+  <button onclick="saveSpeed()">Generate Timetable →</button>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

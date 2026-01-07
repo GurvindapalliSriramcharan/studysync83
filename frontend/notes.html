@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo-section">
+    <div class="logo">📝</div>
+    <div class="app-name">StudySync</div>
+  </div>
+  <button class="home-btn" onclick="goHome()">🏠 Home</button>
+</div>
+
+<div class="page-container" style="max-width:900px;">
+  <h2>📖 AI-Generated Study Notes</h2>
+  <p class="hint">Concise notes for quick revision based on your selected units</p>
+
+  <div id="notesContent"></div>
+
+  <div class="button-group" style="margin-top:30px;">
+    <button onclick="goImportant()">📋 Important Questions</button>
+    <button onclick="goResources()">🎥 Video Resources</button>
+    <button onclick="goTimetable()">📅 Back to Timetable</button>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

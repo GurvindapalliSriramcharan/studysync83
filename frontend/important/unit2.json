@@ -1,0 +1,90 @@
+{
+  "unit": "Unit 2: Relational Model and SQL",
+  "topics": ["Relational Model", "Relational Algebra", "SQL Commands", "Joins", "Subqueries"],
+  "questions": [
+    {
+      "question": "Explain the structure of RDBMS. What are the properties of a relation?",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Integrity Constraints? Explain Domain, Key, Entity Integrity, and Referential Integrity constraints.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain Relational Algebra operations: Selection, Projection, Union, Set Difference, Cartesian Product, and Rename.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is Relational Calculus? Differentiate between Tuple Relational Calculus and Domain Relational Calculus.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Write SQL DDL commands to create a database schema for Library Management System with at least 3 tables.",
+      "type": "Practical",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain the following SQL commands with syntax and examples: CREATE, ALTER, DROP, TRUNCATE.",
+      "type": "Medium Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain DML commands: INSERT, UPDATE, DELETE, SELECT with syntax and examples.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Aggregate Functions in SQL? Explain COUNT, SUM, AVG, MAX, MIN with examples.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain different types of JOIN operations in SQL: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, CROSS JOIN.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Subqueries? Explain correlated and non-correlated subqueries with examples.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is a VIEW in SQL? How to create, update, and drop views? What are the advantages of views?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What are Triggers in SQL? Explain BEFORE and AFTER triggers with examples.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain SET operations in SQL: UNION, UNION ALL, INTERSECT, EXCEPT with examples.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "Medium"
+    },
+    {
+      "question": "What is a Cursor in SQL? Explain the steps to use cursors with an example.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    }
+  ]
+}

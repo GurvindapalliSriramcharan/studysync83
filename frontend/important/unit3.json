@@ -1,0 +1,84 @@
+{
+  "unit": "Unit 3: Functional Dependencies and Normalization",
+  "topics": ["Functional Dependencies", "Normal Forms", "Decomposition", "BCNF"],
+  "questions": [
+    {
+      "question": "What are Functional Dependencies? Explain trivial and non-trivial functional dependencies with examples.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "Explain the concept of Closure of a set of Functional Dependencies. How to compute F+?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What is Closure of Attributes? Explain the algorithm to compute attribute closure with an example.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is an Irreducible (Canonical) Set of Functional Dependencies? How to find it?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "What are the problems caused by data redundancy? How does normalization solve these problems?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Explain First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF) with examples.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is Boyce-Codd Normal Form (BCNF)? How is it different from 3NF? Give an example.",
+      "type": "Long Answer",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is Lossless Join Decomposition? Explain the condition for lossless decomposition.",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What is Dependency Preserving Decomposition? Why is it important?",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "High"
+    },
+    {
+      "question": "Normalize the following relation to BCNF: Student(StudentID, Name, CourseID, CourseName, InstructorID, InstructorName)",
+      "type": "Practical",
+      "marks": 10,
+      "frequency": "Very High"
+    },
+    {
+      "question": "What are Multivalued Dependencies? Explain with an example.",
+      "type": "Medium Answer",
+      "marks": 6,
+      "frequency": "Medium"
+    },
+    {
+      "question": "What is Fourth Normal Form (4NF)? How does it handle multivalued dependencies?",
+      "type": "Long Answer",
+      "marks": 8,
+      "frequency": "High"
+    },
+    {
+      "question": "Given a relation R(A, B, C, D, E) with FDs: A→B, BC→E, ED→A. Find candidate keys and normalize to 3NF.",
+      "type": "Practical",
+      "marks": 10,
+      "frequency": "Very High"
+    }
+  ]
+}

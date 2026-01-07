@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Timetable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo-section">
+    <div class="logo">📝</div>
+    <div class="app-name">StudySync</div>
+  </div>
+  <button class="home-btn" onclick="goHome()">🏠 Home</button>
+</div>
+
+<div class="page-container">
+  <h2>Personalized Study Timetable</h2>
+
+  <div id="slowLearnerNote" class="info-note" style="display:none;">
+    <strong>📚 Tip for Slow Learners:</strong> Focus on the Important Questions during your allotted study time. 
+    They cover the most frequently asked topics from previous year papers!
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Day</th><th>Unit</th><th>Focus</th><th>Hours</th></tr>
+    </thead>
+    <tbody id="timetableContent"></tbody>
+  </table>
+
+  <div class="button-group">
+    <button onclick="goImportant()">📋 Important Questions</button>
+    <button onclick="goNotes()">📖 Study Notes</button>
+    <button onclick="goResources()">🎥 Video Resources</button>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

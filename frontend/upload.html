@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StudySync | Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="logo-section">
+    <div class="logo">📝</div>
+    <div class="app-name">StudySync</div>
+  </div>
+  <button class="home-btn" onclick="goHome()">🏠 Home</button>
+</div>
+
+<div class="page-container">
+  <h2>Upload Learning Inputs</h2>
+
+  <div class="info-note" style="background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 15px; margin-bottom: 20px; color: #856404;">
+    <strong>📢 Note:</strong> Currently, this feature provides quiz data for the <strong>DBMS (Database Management Systems)</strong> subject only. We are working on adding AI-powered quiz generation that will automatically create quizzes for any uploaded syllabus. Stay tuned for updates!
+  </div>
+
+  <label>Syllabus (Image / PDF)</label>
+    <div class="upload-box">
+  <label class="upload-label">
+    <input type="file" id="syllabusInput" hidden onchange="showFiles('syllabusInput','syllabusFiles')">
+    <div class="upload-content">
+      <p class="upload-title">Upload Syllabus</p>
+      <p class="upload-sub">Click to upload (PDF / Image)</p>
+    </div>
+  </label>
+  <div class="file-list" id="syllabusFiles"></div>
+</div>
+
+  <label>Previous Year Question Papers</label>
+  <div class="upload-box">
+  <label class="upload-label">
+    <input type="file" id="pyqInput" multiple hidden onchange="showFiles('pyqInput','pyqFiles')">
+    <div class="upload-content">
+      <p class="upload-title">Previous Year Question Papers</p>
+      <p class="upload-sub">Upload multiple files (PDF / Image)</p>
+    </div>
+  </label>
+  <div class="file-list" id="pyqFiles"></div>
+</div>
+
+  
+
+  <p class="hint">Important questions will be generated from PYQs</p>
+
+    <button id="generateBtn" class="primary-btn" type="button">
+  Select Units
+</button>
+
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
